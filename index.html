@@ -9,6 +9,24 @@
 		<title>Carrera Artes Visuales</title>
 		<meta name="description" content="">
 		<meta name="author" content="artesvisuales.com">
+		
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@anunciante">
+		<meta name="twitter:title" content="Título página">
+		<meta name="twitter:description" content="Descripción de la página. Longitud máxima 200 caracteres">
+		<meta name="twitter:creator" content="@autor">
+		<!-- Twitter Summary card images must be at least 200x200px -->
+		<meta name="twitter:image" content="http://www.example.com/image.jpg">
+		
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Título de la página aquí" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://www.ejemplo.com/" />
+		<meta property="og:image" content="http://ejemplo.com/imagen.jpg" />
+		<meta property="og:description" content="Descripción de la página" />
+		<meta property="og:site_name" content="Nombre de la página web" />
+		<meta property="fb:admins" content="ID numérico de Facebook" />
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +64,18 @@
 
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
+		
+		<!-- mail -->
+		<script language="javascript">
+			function mail(nm,dm) 
+			{
+			   mailurl = "mailto:" + nm + "@" + dm;
+			   window.location = mailurl;
+			}
+			function MM_openBrWindow(theURL,winName,features) { //v2.0
+			window.open(theURL,winName,features);
+			}
+		</script> 
 	</head>
 
 	<!-- body classes:  -->
@@ -72,6 +102,37 @@
 				<!-- "full-width": mandatory class for the full-width menu layout -->
 				<!-- "centered": mandatory class for the centered logo layout -->
 				<!-- ================ --> 
+				
+				<div class="header-top dark">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2 col-sm-5">
+								<!-- header-top-first start -->
+								<!-- ================ -->
+								<div class="header-top-first clearfix">
+								</div>
+								<!-- header-top-first end -->
+							</div>
+							<div class="col-xs-10 col-sm-7">
+								<!-- header-top-second start -->
+								<!-- ================ -->
+								<div id="header-top-second" class="clearfix text-right">
+									<nav>
+										<ul class="list-inline">
+											<li><a class="link-light" href="javascript:mail('webmaster','artesvisuales.com')"><i class="fa fa-user pr-5"></i>webmaster[at]artesvisuales.com</a></li>
+											 | 
+											<li class="link-light"><a class="link-light" href="#"><i class="fa fa-info-circle pr-5"></i>Información</a></li>
+											 |  
+											<li class="link-light"><strong class="pl-5">Llame: </strong><a href="tel:+34 956 333 020" class="link-light">+34 956 333 020</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!-- header-top-second end -->
+							</div>
+						</div>
+					</div>
+				</div>
+				
 				<header class="header pv-20  clearfix">
 					<div class="container">
 						<div class="row">
@@ -342,31 +403,31 @@
 			<!-- ================ -->
 			<div class="pv-40">
 				<div class="container">
-					<h2 class="text-center">Of Course We Also Provide</h2>
+					<h3 class="text-center">Especificaciones</h3>
 					<div class="separator"></div>
 					<div class="row mt-20">
 						<div class="col-md-6">
 							<div class="feature-box-2 right">
-								<span class="icon without-bg"><i class="text-default icon-resize-normal"></i></span>
+								<span class="icon without-bg"><i class="text-default icon-picture"></i></span>
 								<div class="body">
-									<h4 class="title">Responsive Design</h4>
-									<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices.</p>
+									<h4 class="title">Diseño gráfico</h4>
+									<p class="small">Behance, Photoshop CC Esencial, Photoshop CC Fotógrafos, Photoshop CC Diseñadores, Fundamentos del Diseño, Illustrator CC Esencial, Infografía Periodística, Diseño de carteles, Diseño Publicitario, Indesign CC Esencial, Diseño Editorial, Tipografía, Preimpresión, Acrobat DC, Diseño de Packaging, Diseño Señalética, Marketing, Arquitectura Gráfica, Identidad Corporativa, Portfolio, Proyecto Identidad</p>
 									<div class="separator-3"></div>
 								</div>
 							</div>
 							<div class="feature-box-2 right">
-								<span class="icon without-bg"><i class="text-default icon-megaphone"></i></span>
+								<span class="icon without-bg"><i class="text-default  icon-network"></i></span>
 								<div class="body">
-									<h4 class="title">Easy to Use</h4>
-									<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices.</p>
+									<h4 class="title">Diseño Web</h4>
+									<p class="small">Photoshop Web, Muse, Usabilidad, HTML, CSS, Dreamweaver CC, Diseño Web Estructurado, jQuery, 960 GS, Bootstrap, Responsive Web Design, Responsive Web Design, WordPress Esencial, WordPress Themes, Proyecto Web.</p>
 									<div class="separator-3"></div>
 								</div>
 							</div>
 							<div class="feature-box-2 right">
-								<span class="icon without-bg"><i class="text-default icon-infinity"></i></span>
+								<span class="icon without-bg"><i class="text-default icon-video"></i></span>
 								<div class="body">
-									<h4 class="title">Unlimited options and variations</h4>
-									<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices.</p>
+									<h4 class="title">Video digital</h4>
+									<p class="small">Fundamentos Audiovisuales, Youtube, Premiere CC, After Effects CC, Audition CC, Media Encoder CC.</p>
 									<div class="separator-3"></div>
 								</div>
 							</div>
@@ -375,24 +436,33 @@
 							<div class="feature-box-2">
 								<span class="icon without-bg"><i class="text-default icon-snow"></i></span>
 								<div class="body">
-									<h4 class="title">Latest Technologies</h4>
-									<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
+									<h4 class="title">2 años de formación</h4>
+									<ul class="list-icons">
+										<li class="small"><i class="icon-check-1 small"></i>Eminentemente práctica.</li>
+										<li class="small"><i class="icon-check-1 small"></i>Enfocado a la realidad laboral.</li>
+										<li class="small"><i class="icon-check-1 small"></i>Gráfico, web y video digital.</li>
+										<li class="small"><i class="icon-check-1 small"></i>Método de aprendizaje: Formación online mediante campus virtual.  </li>
+									</ul>
+																		<div class="separator-2"></div>
+								</div>
+							</div>
+							<div class="feature-box-2">
+								<span class="icon without-bg"><i class="text-default icon-tablet"></i></span>
+								<div class="body">
+									<h4 class="title">Campus última generación</h4>
+									<ul class="list-icons">
+										<li class="small"><i class="icon-check-1 small"></i>App iPad e iPhone.</li>
+										<li class="small"><i class="icon-check-1 small"></i>Enfocado a la comunidad y la colaboración.</li>
+										<li class="small"><i class="icon-check-1 small"></i>Intuitivo y fácil de utilizar.</li>
+									</ul>
 									<div class="separator-2"></div>
 								</div>
 							</div>
 							<div class="feature-box-2">
-								<span class="icon without-bg"><i class="text-default icon-tools"></i></span>
+								<span class="icon without-bg"><i class="text-default icon-pen"></i></span>
 								<div class="body">
-									<h4 class="title">Deticated Support</h4>
-									<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
-									<div class="separator-2"></div>
-								</div>
-							</div>
-							<div class="feature-box-2">
-								<span class="icon without-bg"><i class="text-default icon-star-empty"></i></span>
-								<div class="body">
-									<h4 class="title">Valid Code</h4>
-									<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
+									<h4 class="title">Activa bolsa de empleo</h4>
+									<p class="small">Según nuestros estudios de empleabilidad el 80% de nuestros alumnos están trabajando en el sector.</p>
 									<div class="separator-2"></div>
 								</div>
 							</div>
