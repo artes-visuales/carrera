@@ -621,6 +621,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cav.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6973,
+		"inputAbbreviatedPath": "\/images\/cav.jpg",
+		"outputAbbreviatedPath": "\/images\/cav.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/client-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -944,12 +955,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 209393,
+		"initialSize": 209249,
 		"inputAbbreviatedPath": "\/images\/LP-Banner.jpg",
 		"outputAbbreviatedPath": "\/images\/LP-Banner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/LP-CC.jpg": {
 		"fileType": 16384,
@@ -960,7 +971,7 @@
 		"outputAbbreviatedPath": "\/images\/LP-CC.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/page-about-1.jpg": {
 		"fileType": 16384,
