@@ -940,27 +940,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/logo_blue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2133,
-		"inputAbbreviatedPath": "\/images\/logo_blue.png",
-		"outputAbbreviatedPath": "\/images\/logo_blue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/LP-Banner.jpeg": {
+	"\/images\/LP-Banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 209393,
-		"inputAbbreviatedPath": "\/images\/LP-Banner.jpeg",
-		"outputAbbreviatedPath": "\/images\/LP-Banner.jpeg",
+		"inputAbbreviatedPath": "\/images\/LP-Banner.jpg",
+		"outputAbbreviatedPath": "\/images\/LP-Banner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/LP-CC.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134440,
+		"inputAbbreviatedPath": "\/images\/LP-CC.jpg",
+		"outputAbbreviatedPath": "\/images\/LP-CC.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/page-about-1.jpg": {
 		"fileType": 16384,
@@ -1995,6 +1995,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/includes\/header-top-dark.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/header-top-dark.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
