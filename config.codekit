@@ -1578,6 +1578,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ucam-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2150,
+		"inputAbbreviatedPath": "\/images\/ucam-logo.png",
+		"outputAbbreviatedPath": "\/images\/ucam-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/includes\/header-top-dark.html": {
 		"fileType": 8192,
 		"ignore": 0,
