@@ -1,4 +1,5 @@
 *.log
 commits.txt
 config.codekit
+config.codekit3
 .gitignore
